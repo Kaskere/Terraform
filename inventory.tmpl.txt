@@ -1,0 +1,4 @@
+[webserver]
+dns = tf-lb-20210324164847068200000001-725054307.us-east-2.elb.amazonaws.com
+ip = 3.15.234.84
+id = vpc-011594cd9c5ecc65b
