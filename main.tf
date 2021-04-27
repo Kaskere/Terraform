@@ -107,7 +107,7 @@ resource "aws_route_table_association" "ps_assoc_1" {
 resource "aws_launch_configuration" "server_configuration" {
   image_id        = data.aws_ami.ubuntu_latest.id
   instance_type   = data.aws_ec2_instance_type_offering.ubuntu_micro.id
-  key_name        = "140321"
+  key_name        = "keyname"
   security_groups = [aws_security_group.ec2_instance_security_group.id]
 
   user_data = <<-EOF
